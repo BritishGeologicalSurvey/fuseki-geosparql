@@ -7,7 +7,7 @@ This Docker image is configured to have GeoSPARQL support.
 You can run the Docker image using:
 
 ```sh
-docker run --rm -p3030:3030 -it ghcr.io/zazuko/fuseki-geosparql
+docker run --rm -p3030:3030 -it ghcr.io/BritishGeologicalSurvey/fuseki-geosparql
 ```
 
 It is listening on the 3030 port, so you should be able to access the web interface using: http://localhost:3030.
